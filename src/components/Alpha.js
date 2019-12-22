@@ -25,6 +25,8 @@ class Alpha extends React.Component {
   }
 
   componentDidMount() {
+    console.log("Alpha CDM platform OS: " + Platform.OS)
+
     Platform.OS === 'web' ? this.loadFontsForRNWeb() : null
     this.props.dispatch(appActions.handleInitialLoad())
     //this.props.dispatch(appActions.handleInitialLoad('Display'))
