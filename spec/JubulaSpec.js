@@ -8,8 +8,7 @@ describe("Splash Page", function() {
   it("starts", async function() {
     console.log("starting Splash Page test")
 
-    await driver.get(base)
-    await browser.debug()
+    driver.findElement(By.id('soccer-ball'))
 
   })
 })

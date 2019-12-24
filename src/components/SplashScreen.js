@@ -71,6 +71,7 @@ class SplashScreen extends React.Component {
   soccerBall () {
     return (
       <Image
+        id="soccer-ball"
         style={{width: 50, height: 50}}
         source={require('../../assets/img/soccerball.svg.png')}
       />
