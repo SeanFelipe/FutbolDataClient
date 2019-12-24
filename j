@@ -1,3 +1,3 @@
 #!/bin/bash -l
-title run-jasmine
-jasmine
+title run-wdio
+wdio

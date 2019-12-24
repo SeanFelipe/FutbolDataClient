@@ -1,3 +1,4 @@
+const SplashScreen = require('./page_models/splash_screen.page')
 const { Builder, By, Key, until } = require('selenium-webdriver')
 
 const driver = new Builder().forBrowser('chrome').build()
@@ -8,7 +9,7 @@ describe("Splash Page", function() {
     console.log("starting Splash Page test")
 
     await driver.get(base)
-    driver.debug()
+    await browser.debug()
 
   })
 })

@@ -46,17 +46,11 @@ class SplashScreen extends React.Component {
       opacityAbout: new Animated.Value(0),
     }
 
-    this.soccerBall = this.soccerBall.bind(this)
-    this.futbolAnim = this.futbolAnim.bind(this)
-    this.startTextAnim = this.startTextAnim.bind(this)
-    this.startFadeIn = this.startFadeIn.bind(this)
-    this.startFadeOut = this.startFadeOut.bind(this)
-    this.startPulsingAnim = this.startPulsingAnim.bind(this)
-
     this.triggerDisplayScreen = this.triggerDisplayScreen.bind(this)
     this.triggerSearchScreen = this.triggerSearchScreen.bind(this)
-    this.triggerAboutScreen = this.triggerAboutScreen.bind(this)
+    this.triggerSearchScreen = this.triggerSearchScreen.bind(this)
   }
+
 
   componentDidMount() {
     this.futbolAnim()
