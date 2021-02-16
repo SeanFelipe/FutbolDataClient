@@ -28,7 +28,8 @@ class SplashScreen extends React.Component {
     this.scx = Dimensions.get('window').width
     this.scy = Dimensions.get('window').height
     this.sx = this.scx * xfactor
-    this.sy = this.scy * yfactor
+    //this.sy = this.scy * yfactor
+    this.sy = this.scy * yfactor + 250
 
 
 
